@@ -1,6 +1,8 @@
 # CV Anastasiya Kulik
 ## Contact information
 email: nastakulik964@gmail.com
+
+discord: Anastasiya(@Antasakul)
 ## Skills
 1. knowledge of the c++ programming language
 2. the methodology of OOP programming
