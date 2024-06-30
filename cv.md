@@ -21,6 +21,7 @@ Define a TextFile class to represent text files. Define the following functions 
 3. ***PasteText()*** – paste text into an arbitrary location;
 4. ***Save()*** – save a file. The function should have a parameter – a file name with a default value of NULL. If the default value is used, the file is saved with the name that was specified when it was opened;
 5. ***Print()*** – display the file contents on the screen.
+
 **Code.**
 ```
 #include <iostream>
