@@ -1,0 +1,61 @@
+Списки
+``
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul.a {
+  list-style-type: circle;
+}
+ul.b {
+  list-style-type: square;
+}
+ol.c {
+  list-style-type: upper-roman;
+}
+ol.d {
+  list-style-type: lower-alpha;
+}
+</style>
+</head>
+<body>
+<h2>The list-style-type Property</h2>
+<p>Example of unordered lists:</p>
+<ul class="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+<ul class="b">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+<p>Example of ordered lists:</p>
+<ol class="c">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+<ol class="d">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+</body>
+</html>
+``
+Границы
+``
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+``
