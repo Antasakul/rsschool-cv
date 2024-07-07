@@ -1,29 +1,138 @@
-Чтобы начать новую, пустую HTML-страницу, используйте следующую минимальную разметку:
-``
-<!doctype html>
-​
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-​
-  <title>My HTML Page</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="icon" href="assets/img/i.ico"/> 
+    <link rel="stylesheet" href="style.css" />
 </head>
-​
 <body>
-  <!-- Add your HTML here -->
-  <script src="js/main.js"></script>
+    <header class="header">
+        <h1>CV<h1>
+            <h1>ANASTASIYA KULIK</h1>
+        </header>
+
+    <main class="main">
+
+        <div class="left">
+
+            <div class="image">
+             <img src="./assets/img/image.jpg" alt="avatar" stule="weidth:200px; height:200px" >
+            </div>
+
+            <div class="Contact">
+                <h2>Contact information</h2>
+                <p>
+                      <b>Email id: </b>nastakulik964@gmail.com
+                  </p>
+
+
+                <p>
+                      <b>Discord: </b>Anastasiya(@Antasakul)
+                  </p>
+            </div>
+
+            <div class="Skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>
+                          <b>Knowledge of the c++ programming language</b>
+                      </li>
+                    <li>
+                          <b>Frontend : HTML5, CSS3</b>
+                      </li>
+                      <li>
+                        <b>The methodology of OOP programming</b>
+                    </li>
+                </ul>
+              </div>
+
+            <div class="Language">
+                <h2>Language</h2>
+                <ul>
+                    <li>English(intermediate)</li>
+                    <li>Russian</li>
+                    <li>Belarusian</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h2>Projects</h2>
+                <p>
+                    This cv represents the first project.
+                  </p>
+          
+    </div>
+
+        </div>
+
+        <div class="right">
+
+            <div class="About me">
+                <h2>About me</h2>
+                <p>
+                    A member of the university student council, participated in charity events. I strive to obtain higher education, I am considering the possibility of studying for a master's degree. I have a high learning ability, I quickly learn new information and apply it in practice.
+                </p>
+            </div>      
+
+                <div class="Education">
+                    <h2>Education</h2>
+                <p> <b>2022-2026</b> Belarusian State University of Informatics and Radioelectronics</p>
+                <p> <b>Specializing</b> in automated information processing systems</p>
+                </div>
+
+
+                
+                <div class="code">
+                    <h2>
+                        Code example
+                    </h2>
+                    <h3>The task:</h3>
+                        <p>Define the following functions in the class:AddText(), PasteText()</p>
+                    <h3>Code:</h3>
+   <pre> <code>                      void addtext(const char* text)
+                        {
+ int textLength = strlen(text);
+ char* newBuff = new char[length + textLength + 1];
+ strcpy_s(newBuff, length + textLength + 1, buff);
+ strcat_s(newBuff, length + textLength + 1, text);
+ delete[] buff;
+ buff = newBuff;
+ length += textLength;
+ }
+                        void pastetext(const char* text, int position)
+                        {
+ int textLength = strlen(text);
+ char* newBuff = new char[length + textLength + 1];
+ strncpy_s(newBuff, length + textLength + 1, buff, position);
+ strncat_s(newBuff, length + textLength + 1, text, textLength);
+ strncat_s(newBuff, length + textLength + 1, buff + position, length - position);
+ delete[] buff;
+ buff = newBuff;
+ length += textLength;
+ }  </code> </pre>
+                </div>
+
+    
+
+            </div>
+           
+
+  </main>
+  
+  <footer class="footer" >
+    <div class="footer-content">
+        <a href="https://github.com/Antasakul" class="main-text" id="github"
+          >GitHub</a>
+
+        <time class="main-text" id="time">2024</time>
+        <a href="https://rs.school/courses/javascript-preschool-ru"
+          ><img src="assets/img/i.ico" alt="rs school logo" id="rs-logo"
+        /></a>
+      </div>
+</footer>
+  
+       
 </body>
 </html>
-``
-Тип Doctype
-Несмотря на то, что объявление типа документа (doctype) не является строго обязательным, рекомендуется включить его:
-``
-<!doctype html>
-``
-Элемент html
-Все содержимое HTML-документа оборачивается в элемент. Рекомендуется добавить атрибут к элементу:htmllang
-``
-<html lang="en">
-</html>
-``
