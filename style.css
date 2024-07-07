@@ -1,0 +1,141 @@
+ul.a {
+  list-style-type: circle;
+}
+ul.b {
+  list-style-type: square;
+}
+ol.c {
+  list-style-type: upper-roman;
+}
+ol.d {
+  list-style-type: lower-alpha;
+}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+.header {
+  position: initial;
+  background-color: #e2dedeea;
+  text-align: center;
+  padding: 10px;
+}
+
+h1{
+  color: black;
+}
+h2{
+  color: black;
+  text-decoration: underline;
+  line-height: 1.8;
+ }
+p{ 
+  line-height: 1.8;
+}
+
+img {
+  border-radius: 20%;
+  display: block;
+  margin-right:auto;
+ width: 50%; 
+}
+.left{
+  position: initial;
+  color: black;
+  padding: 30px;
+}
+.right{
+  position: initial;
+  background-color: rgb(213, 219, 219);
+  padding: 30px;
+}
+.main {
+  width: 100%;
+  max-width: 1000px;
+  min-height: 100px;
+  background-color: rgb(218, 216, 213);
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+body {
+  background-color: rgb(223, 224, 225);
+  display: flex;
+  align-items: center;
+  min-height:100vh;
+  margin:0;
+  padding:0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer{
+  background-color: #e2dedeea;
+  text-align: center;
+  padding: 10px; 
+}
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url("./assets/img/i.ico");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#code {
+  position: relative;
+  right: 48px;
+}
+
+.footer-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#github {
+  display: block;
+  text-decoration: none;
+  width: 70px;
+  animation-duration: 3s;
+ 
+}
+
+#github:hover {
+  color: rgb(23, 22, 22);
+
+}
+#time {
+  display: block;
+}
+#time{
+  display:block;
+width: 100px;
+}
+
+#rs-logo {
+  display: block;
+  width: 50px;
+  opacity: 70%;
+  transition: opacity 0.3s;
+}
+
+#rs-logo:hover {
+  
+  opacity: 100%;
+}
+.p1 {
+  white-space: nowrap;
+}
